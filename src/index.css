@@ -1,0 +1,17 @@
+
+body {
+  color: #272829;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .main-content {
+    margin-left: 300px;
+  }
+}
+
+.main-content {
+  background-color: #ffffff;
+  min-height: 100vh;
+}
