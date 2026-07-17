@@ -6,7 +6,12 @@ export default function Sidebar() {
     return (
         <header id="header" className="header dark-background d-flex flex-column">
             <div className="profile-img">
-                <img src={profileImg} alt="Profile" className="img-fluid rounded-circle" />
+                <img
+                    src={profileImg}
+                    alt="Profile"
+                    className="img-fluid rounded-circle"
+                    style={{ width: '120px', height: '120px', objectFit: 'cover' }}
+                />
             </div>
 
             <a href="/" className="logo d-flex align-items-center justify-content-center">
