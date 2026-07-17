@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import Typed from 'typed.js';
+import heroBg from '../assets/img/narrat.jpg';
 
 export default function Home() {
   useEffect(() => {
@@ -19,7 +20,7 @@ export default function Home() {
   return (
     <section id="hero" className="hero section dark-background" style={{ position: 'relative', minHeight: '100vh', display: 'flex', alignItems: 'center' }}>
       {/* ប្រើប្រាស់រូបភាពពីfolder assets/img */}
-      <img src="/src/assets/img/narrat.jpg" alt="Hero Background" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', zIndex: 1 }} />
+      <img src={heroBg} alt="Hero Background" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', zIndex: 1 }} />
 
       <div className="container" style={{ position: 'relative', zIndex: 3 }} data-aos="fade-up" data-aos-delay="100">
         <h2>Rorn Narrat</h2>

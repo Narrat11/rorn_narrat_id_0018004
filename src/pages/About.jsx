@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
+import aboutImg from '../assets/img/team1.png';
 
 export default function About() {
     useEffect(() => {
-        // នាំចូលpurecounter ចេញពី folder vendor
         import('../assets/vendor/purecounter/purecounter_vanilla.js')
             .then(() => {
                 if (window.PureCounter) {
@@ -25,7 +25,7 @@ export default function About() {
                 <div className="container" data-aos="fade-up" data-aos-delay="100">
                     <div className="row gy-4 justify-content-center">
                         <div className="col-lg-4">
-                            <img src="/src/assets/img/team1.png" className="img-fluid" alt="Profile" />
+                            <img src={aboutImg} className="img-fluid" alt="Profile" />
                         </div>
                         <div className="col-lg-8 content">
                             <h2>UI/UX Designer &amp; Web Developer.</h2>

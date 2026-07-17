@@ -1,11 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import profileImg from '../assets/img/team1.png';
 
 export default function Sidebar() {
     return (
         <header id="header" className="header dark-background d-flex flex-column">
             <div className="profile-img">
-                <img src="/src/assets/img/team1.png" alt="Profile" className="img-fluid rounded-circle" />
+                <img src={profileImg} alt="Profile" className="img-fluid rounded-circle" />
             </div>
 
             <a href="/" className="logo d-flex align-items-center justify-content-center">
