@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Typed from 'typed.js';
-import heroBg from '../assets/img/narrat.jpg';
+import heroBg from '../assets/img/team_work.jpg';
 
 export default function Home() {
   useEffect(() => {
